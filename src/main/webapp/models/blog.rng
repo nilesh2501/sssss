@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar ns="" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <start>
+    <element name="entries">
+      <oneOrMore>
+        <element name="entry">
+          <attribute name="date">
+            <data type="date"/>
+          </attribute>
+          <attribute name="uuid">
+            <data type="string" >
+              <param name="maxLength">34</param>
+            </data>
+          </attribute>
+
+          <element name="title">
+            <data type="string">
+              <param name="minLength">5</param>
+              <param name="maxLength">127</param>              
+            </data>
+         
+          </element>
+    
+            <ref name="body"/>
+          <optional>
+            <element name="comments">
+              <oneOrMore>
+                <element name="comment">
+                  <attribute name="date">
+                    <data type="date"/>
+                  </attribute>
+                  <attribute name="uuid"/>
+                  <element name="from">
+                    <data type="NCName"/>
+                  </element>
+                  <element name="email">
+                    <data type="string">
+                      <param name="pattern">.+@.+\.de</param>
+                    </data>
+                  </element>
+                  <ref name="body"/>
+                </element>
+              </oneOrMore>
+            </element>
+          </optional>
+        </element>
+      </oneOrMore>
+    </element>
+  </start>
+  <define name="body">
+    <element name="body">
+      <text/>
+    </element>
+  </define>
+</grammar>

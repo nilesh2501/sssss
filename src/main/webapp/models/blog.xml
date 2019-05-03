@@ -1,0 +1,27 @@
+<entries>
+  <entry date="2011-08-01" uuid="5c5b3629-d839-436c-a14a-da3258902b55">
+    <title>Hello World</title>
+    <body>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </body>
+      <comments>
+        <comment date="2011-08-01" uuid="4429da0e-ec97-4d88-8d6c-c3ba59a4701f">
+          <from>Michael</from>
+          <email>ms@basex.org</email>
+          <body>Nice stuff</body>
+        </comment>
+        <comment date="2011-08-01" uuid="4429da0e-ec97-4d88-8d6c-c3ba59a4701f">
+          <from>Michael2</from>
+          <email>ms@basex.org</email>
+          <body>Nice stuff</body>
+        </comment>
+      </comments>
+    </entry>
+    <entry date="2011-07-31" uuid="5c5b3629-d839-436d-a14a-da3258902b55">
+      <title>Hello World number two</title>
+      <body>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </body>
+        <comments />
+      </entry>
+
+
+</entries>
